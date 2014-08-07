@@ -20,7 +20,7 @@ app.get(urlPaths, function (req, res) {
 
 app.post('/rest/register', function (req, res) {
     if(req.body.email === 'foo@bar.com') {
-        res.status(500).send({ text: 'The given e-mail address has been already taken!'});
+        res.send(403, 'The given e-mail address has been already taken!');
     } else {
         res.send({ success: true });
     }

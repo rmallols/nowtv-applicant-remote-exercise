@@ -35,7 +35,7 @@ The estimated working time to complete the acceptance criteria (see below) is **
     * Expected data format: `{ color: '<selected color>', email: '<typed email>' }`
 <br/><br/>
 
-5. If the backend rejects the request for any reason (the `foo@bar.com` e-mail address is marked as already in use, so nobody else can register it), it will trigger a 500 error code
+5. If the backend rejects the request for any reason (the `foo@bar.com` e-mail address is marked as already in use, so nobody else can register it), it will trigger a 403 error code
     * The user will receive a message alerting him about the origin of the problem.
 <br/><br/>
 

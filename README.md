@@ -12,7 +12,7 @@ If the data model is correct, the user will be redirected to a different view, r
 The estimated working time to complete the acceptance criteria (see below) is **2 hours**.
 
 ### Acceptance criteria
-<br/>
+
 
 1. The UI of the register form will be based on the information provided on the mockup at `/frontend/src/app/register/register.mockup.jpeg`.
     * The content is aligned to the middle, both vertically and horizontally.
@@ -43,13 +43,14 @@ The estimated working time to complete the acceptance criteria (see below) is **
     * The flow will redirect to the /thanks view (Don't mind about anything there but the redirection itself).
 
 ### Further tips
-<br/>
+
 * Having a good test coverage is really important for us. Please try to give them the importance you consider they deserve.
 * Feel free to explain any of the decisions you take, as well as to propose enhancements to the architecture in case you would have had more time to implement the given solution.
 
 
 ### How to start
-<br/>
+
+
 1. Checkout the project.
 
 2. Start the execution server with `supervisor backend/server.js`. `The targeted view is expected to be at http://localhost:3000/register`.

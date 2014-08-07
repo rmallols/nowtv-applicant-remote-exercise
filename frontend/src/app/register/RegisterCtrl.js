@@ -1,3 +1,3 @@
-app.controller('RegisterCtrl', ['$http', function ($http) {
+app.controller('RegisterCtrl', [function () {
 
 }]);

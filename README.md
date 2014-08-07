@@ -45,6 +45,7 @@ The estimated working time to complete the acceptance criteria (see below) is **
 ### Further tips
 
 * Having a good test coverage is really important for us. Please try to give them the importance you consider they deserve.
+
 * Feel free to explain any of the decisions you take, as well as to propose enhancements to the architecture in case you would have had more time to implement the given solution.
 
 

@@ -12,32 +12,39 @@ If the data model is correct, the user will be redirected to a different view, r
 The estimated working time to complete the acceptance criteria (see below) is **2 hours**.
 
 ### Acceptance criteria
-# The UI of the register form will be based on the information provided on the mockup at `/frontend/src/app/register/register.mockup.jpeg`.
+
+1. The UI of the register form will be based on the information provided on the mockup at `/frontend/src/app/register/register.mockup.jpeg`.
     * The content is aligned to the middle, both vertically and horizontally.
 
-1. Just one color will be selected at the same time. Whenever any of them is marked:
+
+2. Just one color will be selected at the same time. Whenever any of them is marked:
     * It will be surrounded with a red border color.
     * The border color of the e-mail input field will be the same as the selected color.
 
-2. The user will receive error feedback whenever the specified e-mail address fits with any of the following scenarios:
+
+3. The user will receive error feedback whenever the specified e-mail address fits with any of the following scenarios:
     * It's empty.
     * It's not a valid e-mail address.
     * It's not accepted by the back-end (see below for details about triggering REST calls). Please note that just the `foo@bar.com` will be considered as invalid.
 
-3. If the typed e-mail is valid, the user will be able to submit the data to the backend
+
+4. If the typed e-mail is valid, the user will be able to submit the data to the backend
     * Endpoint: `/rest/register`
     * Request type: `POST`
     * Expected data format: `{ color: '<selected color>', email: '<typed email>' }`
 
-4. If the backend rejects the request for any reason (the `foo@bar.com` e-mail address is marked as already in use, so nobody else can register it), it will trigger a 500 error code
+
+5. If the backend rejects the request for any reason (the `foo@bar.com` e-mail address is marked as already in use, so nobody else can register it), it will trigger a 500 error code
     * The user will receive a message alerting him about the origin of the problem.
 
-5. If the backend accepts the request:
+
+6. If the backend accepts the request:
     * The flow will redirect to the /thanks view (Don't mind about anything there but the redirection itself).
 
 ### Further tips
     * Having a good test coverage is really important for us. Please try to give them the importance you consider they deserve.
     * Feel free to explain any of the decisions you take, as well as to propose enhancements to the architecture in case you would have had more time to implement the given solution.
+
 
 ### How to start
 

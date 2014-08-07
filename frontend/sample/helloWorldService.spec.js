@@ -9,7 +9,7 @@ describe('hello world service', function () {
             helloWorldService = helloWorld_;
         }]));
 
-    iit('should attach a list of awesomeThings to the scope', function () {
+    it('should attach a list of awesomeThings to the scope', function () {
         expect(helloWorldService.getMessage()).toBe('Hello World!');
     });
 });

@@ -40,7 +40,7 @@ The estimated working time to complete the acceptance criteria (see below) is **
 <br/><br/>
 
 6. If the backend accepts the request:
-    * The flow will redirect to the /thanks view (Don't mind about anything there but the redirection itself).
+    * The flow will redirect to the `/thanks` view (Don't mind about anything there but the redirection itself).
 
 ### Further tips
 
